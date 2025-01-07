@@ -34,3 +34,34 @@ document.getElementById('publiclink_4').addEventListener('click', function(event
     }else{
     window.location.href = '/files/cpp.zip';} // Переадресация
 });
+
+document.getElementById('publiclink_5').addEventListener('click', function(event) {
+    event.preventDefault(); // Отменяем переход по ссылке
+ 
+    window.location.href = 'https://public.bn-team.xyz/spec/Qk4gU1BFQzA1';} // Переадресация
+);
+document.getElementById('publiclink_6').addEventListener('click', function(event) {
+    event.preventDefault(); // Отменяем переход по ссылке
+ 
+    window.location.href = 'https://public.bn-team.xyz/spec/Qk4gU1BFQzA2';} // Переадресация
+);
+document.getElementById('publiclink_7').addEventListener('click', function(event) {
+    event.preventDefault(); // Отменяем переход по ссылке
+ 
+    window.location.href = 'https://public.bn-team.xyz/spec/Qk4gU1BFQzA3';} // Переадресация
+);
+document.getElementById('publiclink_8').addEventListener('click', function(event) {
+    event.preventDefault(); // Отменяем переход по ссылке
+ 
+    window.location.href = '/https://public.bn-team.xyz/spec/Qk4gU1BFQzA4';} // Переадресация
+);
+document.getElementById('publiclink_9').addEventListener('click', function(event) {
+    event.preventDefault(); // Отменяем переход по ссылке
+ 
+    window.location.href = 'https://public.bn-team.xyz/spec/Qk4gU1BFQzA5';} // Переадресация
+);
+document.getElementById('publiclink_10').addEventListener('click', function(event) {
+    event.preventDefault(); // Отменяем переход по ссылке
+ 
+    window.location.href = 'https://public.bn-team.xyz/spec/Qk4gU1BFQzAxMA==';} // Переадресация
+);
