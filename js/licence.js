@@ -22,7 +22,7 @@ document.getElementById('publiclink_2').addEventListener('click', function(event
 document.getElementById('publiclink_3').addEventListener('click', function(event) {
     event.preventDefault(); // Отменяем переход по ссылке
     if (isMobile) {
-        alert('Файл доступен только на компьютерах и ноутбуках'); // Показываем alert, если пользователь на ПК
+        alert('Файл не для мобильных устройств');  // Показываем alert, если пользователь на ПК
     }else{
     window.location.href = '/files/ava.zip';} // Переадресация
 });
@@ -30,7 +30,7 @@ document.getElementById('publiclink_3').addEventListener('click', function(event
 document.getElementById('publiclink_4').addEventListener('click', function(event) {
     event.preventDefault(); // Отменяем переход по ссылке
     if (isMobile) {
-        alert('Файл доступен только на компьютерах и ноутбуках'); // Показываем alert, если пользователь на ПК
+        alert('Файл не для мобильных устройств'); // Показываем alert, если пользователь на ПК
     }else{
     window.location.href = '/files/cpp.zip';} // Переадресация
 });
